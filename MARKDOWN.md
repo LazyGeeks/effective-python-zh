@@ -8,7 +8,7 @@
 
 ## 间隔
 
-*标题*、*底部链接* 与正文之间，保持两个空行的间隔。
+*标题*、*底部链接* 与正文之间，保持 **两个空行** 的间隔。
 
 
 ## 标题
@@ -43,7 +43,7 @@
 
     [Some text](http://example.com/some-text)
 
-**备注**：书籍目录，以及文档之间的相互链接。
+**备注**：*书籍目录*，以及 *文档之间的相互链接* 等除外。
 
 
 ## 图片
@@ -57,6 +57,8 @@
     ![Alt text][logo]
 
     [logo]: http://image.com/sample
+
+**备注**：有意与 [链接](#链接) 作区分。
 
 
 ## 代码块
@@ -83,27 +85,33 @@
 
 采用：
 
-    Tables        | Are           | Cool
-    ------------- |:-------------:| -----:
-    col 3 is      | right-aligned | $1600
-    col 2 is      | centered      |   $12
-    zebra stripes | are neat      |    $1
+```
+Tables        | Are           | Cool
+------------- |:-------------:| -----:
+col 3 is      | right-aligned | $1600
+col 2 is      | centered      |   $12
+zebra stripes | are neat      |    $1
+```
 
 避免：
 
-    Tables | Are | Cool
-    --- |:---:| ---:
-    col 3 is | right-aligned | $1600
-    col 2 is | centered | $12
-    zebra stripes | are neat | $1
+```
+Tables | Are | Cool
+--- |:---:| ---:
+col 3 is | right-aligned | $1600
+col 2 is | centered | $12
+zebra stripes | are neat | $1
+```
 
-或：
+或
 
-    | Tables        | Are           | Cool  |
-    | ------------- |:-------------:| -----:|
-    | col 3 is      | right-aligned | $1600 |
-    | col 2 is      | centered      |   $12 |
-    | zebra stripes | are neat      |    $1 |
+```
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
 
 
 [1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
