@@ -19,6 +19,14 @@
 5. (欢迎补充...)
 
 
+## Markdown 规范
+
+[Markdown 规范](MARKDOWN.md)
+
+
 ## 版权声明
 
 本项目仅用于学习和交流目的。如有版权问题，请及时联系我们。
+
+
+[1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
