@@ -22,7 +22,9 @@ Python 3.4.2
 import sys
 print(sys.version_info)
 print(sys.version)
+```
 
+```
 >>>
 sys.version_info(major=3, minor=4, micro=2, releaselevel=‘final’, serial=0)
 3.4.2 (default, Oct 19 2014, 17:52:17)
