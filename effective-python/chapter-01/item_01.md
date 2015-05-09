@@ -1,8 +1,8 @@
 # 条款 01：了解你所使用的 Python 版本
 
-在本书中，大部分示例代码都采用 Python 3.4（发布于 2014 年 3 月 17 日）的语法。为了强调一些重要的差异点，本书也会提供一些基于 Python 2.7（发布于 2010 年 7 月 3 日）语法的示例代码。对于所有流行的 Python 运行时（Python runtimes）：CPython、Jython、IronPython 和 PyPy 等等，我的大部分建议都是有效的。
+在本书中，大部分示例代码都采用 Python 3.4（发布于 2014 年 3 月 17 日）的语法。为了强调一些重要的差异点，本书也会提供一些基于 Python 2.7（发布于 2010 年 7 月 3 日）语法的示例代码。对于所有流行的 Python 运行时环境：CPython、Jython、IronPython 和 PyPy 等等，我的大部分建议都是有效的。
 
-在很多计算机上，都会预装多种版本的标准 CPython 运行时。但是，在命令行中，`python` 命令的默认含义可能并不清晰。`python` 通常是 `python2.7` 的别名，但有时也可能是更老的版本如 `python2.6` 或 `python2.7` 的别名。为了确定你正在使用的 Python 版本，你可以（在 `python` 命令后面）使用 `--version--` 标记。
+在很多计算机上，都会预装多种版本的标准 CPython 运行时环境。但是，在命令行中，`python` 命令的默认含义可能并不清晰。`python` 通常是 `python2.7` 的别名，但有时也可能是更老的版本如 `python2.6` 或 `python2.7` 的别名。为了确定你正在使用的 Python 版本，你可以（在 `python` 命令后面）使用 `--version--` 标记。
 
 ```
 $ python --version
@@ -40,6 +40,6 @@ Python 2 和 Python 3 都是 Python 社区在积极维护的版本。目前针�
 ## 请记住
 
 + 有两个主要的 Python 版本仍在被广泛使用：Python 2 和 Python 3。
-+ 存在多个流行的 Python 运行时：CPython、Jython、IronPython 和 PyPy 等等。
++ 存在多个流行的 Python 运行时环境：CPython、Jython、IronPython 和 PyPy 等等。
 + 确保在你的系统命令行中，你使用的是你预期的 Python 版本。
 + 优先选择 Python 3 来开发你的下一个项目，因为它是 Python 社区的主要关注点。
