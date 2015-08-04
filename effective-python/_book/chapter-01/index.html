@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>第 1 章：Python的思想 | Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.0.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../chapter-01/item_01.html" />
+    
+    
+    <link rel="prev" href="../index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+    
+
+        
+    <div class="book" data-level="1" data-basepath=".." data-revision="Sat May 09 2015 11:10:34 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1" data-path="chapter-01/index.html">
+            
+                
+                    <a href="../chapter-01/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        第 1 章：Python的思想
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="chapter-01/item_01.html">
+            
+                
+                    <a href="../chapter-01/item_01.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        1. 了解你所使用的 Python 版本
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter-01/item_02.html">
+            
+                
+                    <a href="../chapter-01/item_02.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        2. 遵循 PEP 8 风格指南
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter-01/item_03.html">
+            
+                
+                    <a href="../chapter-01/item_03.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        3. 了解bytes, str和unicode的区别
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="chapter-01/item_04.html">
+            
+                
+                    <a href="../chapter-01/item_04.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        4. 写辅助函数替换复杂的表达式
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="chapter-01/item_05.html">
+            
+                
+                    <a href="../chapter-01/item_05.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        5. 了解如何切分序列
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="pythonic-%E6%80%9D%E6%83%B3">Pythonic &#x601D;&#x60F3;</h1>
+<p>&#x4E00;&#x95E8;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x60EF;&#x7528;&#x8BED;&#xFF08;idioms&#xFF09;&#x662F;&#x7531;&#x5B83;&#x7684;&#x7528;&#x6237;&#x5B9A;&#x4E49;&#x7684;&#x3002;&#x591A;&#x5E74;&#x6765;&#xFF0C;Python &#x793E;&#x533A;&#x5DF2;&#x7ECF;&#x4E60;&#x60EF;&#x4E8E;&#x7528;&#x5F62;&#x5BB9;&#x8BCD; <em>Pythonic</em> &#x6765;&#x63CF;&#x8FF0;&#x90A3;&#x4E9B;&#x9075;&#x5FAA;&#x4E86;&#x7279;&#x5B9A;&#x98CE;&#x683C;&#x7684;&#x4EE3;&#x7801;&#x3002;&#x8FD9;&#x79CD; Pythonic &#x98CE;&#x683C;&#x5E76;&#x4E0D;&#x662F;&#x7F16;&#x8BD1;&#x5668;&#x6240;&#x8981;&#x6C42;&#x7684;&#x6216;&#x8005;&#x5F3A;&#x5236;&#x7684;&#x3002;&#x968F;&#x7740;&#x8BED;&#x8A00;&#x4F7F;&#x7528;&#x7ECF;&#x9A8C;&#x7684;&#x4E0D;&#x65AD;&#x79EF;&#x7D2F;&#xFF0C;&#x4EE5;&#x53CA;&#x4E0E;&#x4ED6;&#x4EBA;&#x534F;&#x4F5C;&#x7684;&#x4E0D;&#x65AD;&#x52A0;&#x5F3A;&#xFF0C;&#x8FD9;&#x79CD;&#x98CE;&#x683C;&#x9010;&#x6B65;&#x5F62;&#x6210;&#x3002;Python &#x7A0B;&#x5E8F;&#x5458;&#x66F4;&#x6CE8;&#x91CD;&#x660E;&#x786E;&#x6027;&#x3001;&#x559C;&#x6B22;&#x7B80;&#x6D01;&#xFF08;&#x800C;&#x4E0D;&#x662F;&#x590D;&#x6742;&#xFF09;&#xFF0C;&#x5E76;&#x4E14;&#x6700;&#x5927;&#x5316;&#x5730;&#x63A8;&#x5D07;&#x53EF;&#x8BFB;&#x6027;&#xFF08;&#x8BD5;&#x8BD5; import this&#xFF09;&#x3002;</p>
+<p>&#x719F;&#x6089;&#x5176;&#x4ED6;&#x8BED;&#x8A00;&#x7684;&#x7A0B;&#x5E8F;&#x5458;&#x5728;&#x5199; Python &#x4EE3;&#x7801;&#x65F6;&#xFF0C;&#x5F80;&#x5F80;&#x4F1A;&#x53D7;&#x9650;&#x4E8E;&#x5176;&#x4ED6;&#x8BED;&#x8A00;&#xFF08;&#x5982; C++&#x3001;Java&#x7B49;&#xFF09;&#x7684;&#x601D;&#x60F3;&#x3002;&#x5C3D;&#x7BA1;&#x5982;&#x6B64;&#xFF0C;&#x8FD9;&#x4E9B;&#x65B0;&#x6765;&#x7684;&#x7A0B;&#x5E8F;&#x5458;&#x4ECD;&#x7136;&#x80FD;&#x5F88;&#x5FEB;&#x9002;&#x5E94; Python &#x4E2D;&#x8868;&#x73B0;&#x51FA;&#x6765;&#x7684;&#x5927;&#x91CF;&#x6982;&#x5FF5;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x8BA9;&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x80FD;&#x77E5;&#x6653;&#x5728; Python &#x4E2D;&#x5904;&#x7406;&#x5E38;&#x89C1;&#x95EE;&#x9898;&#x7684;&#x6700;&#x597D;&#x7684; &#x2014;&#x2014; Pythonic &#x7684; &#x2014;&#x2014;  &#x65B9;&#x5F0F;&#xFF0C;&#x4E5F;&#x662F;&#x975E;&#x5E38;&#x91CD;&#x8981;&#x7684;&#x3002;&#x8FD9;&#x4E9B;&#x6A21;&#x5F0F;&#xFF08;patterns&#xFF09;&#x5C06;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x4F60;&#x5199;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x3002;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../index.html" class="navigation navigation-prev " aria-label="Previous page: Introduction"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../chapter-01/item_01.html" class="navigation navigation-next " aria-label="Next page: 1. 了解你所使用的 Python 版本"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

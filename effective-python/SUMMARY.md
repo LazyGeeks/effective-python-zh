@@ -1,0 +1,6 @@
++ [第 1 章：Python的思想](chapter-01/README.md)
+    - [1. 了解你所使用的 Python 版本](chapter-01/item_01.md)
+    - [2. 遵循 PEP 8 风格指南](chapter-01/item_02.md)
+    - [3. 了解bytes, str和unicode的区别](chapter-01/item_03.md)
+    - [4. 写辅助函数替换复杂的表达式](chapter-01/item_04.md)
+    - [5. 了解如何切分序列](chapter-01/item_05.md)
